@@ -22,5 +22,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.alarm_alert=Fresh_start.ogg \
-    ro.config.ringtone=Your_new_adventure.ogg \
+    ro.config.ringtone=Sus.ogg \
     ro.config.notification_sound=Eureka.ogg
