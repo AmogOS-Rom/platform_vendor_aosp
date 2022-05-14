@@ -230,5 +230,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep
+    
+# Lawnchair
+TARGET_BUILD_LAWNCHAIR ?= true
+ifeq ($(strip $(TARGET_BUILD_LAWNCHAIR)),true)
+include vendor/lawnchair/lawnchair.mk
+endif
+
+
 #endif
 endif
