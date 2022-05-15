@@ -40,7 +40,8 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Bootanimation
-$(call inherit-product, vendor/aosp/config/bootanimation.mk)
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
 
 # Common Overlay
 DEVICE_PACKAGE_OVERLAYS += \
